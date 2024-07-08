@@ -7,6 +7,7 @@ import cookieParser from "cookie-parser";
 import errorHandler from "./middlewares/errorHandler";
 import catchErrors from "./utils/catchErrors";
 import { OK } from "./constants/http";
+import authRoutes from "./routes/auth.route";
 
 const app = express();
 
